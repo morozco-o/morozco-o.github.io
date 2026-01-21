@@ -1,1 +1,125 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f6f3ee;
+	color: #333;
+}
 
+/* Header */
+header {
+	background: url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+	padding: 120px 20px;
+	color: white;
+	text-align: center;
+	background-blend-mode: multiply;
+	background-color: rgba(61, 41, 24, 0.7);
+}
+
+header h1 {
+	font-size: 3.2rem;
+	margin: 0;
+	letter-spacing: 2px;
+}
+
+header p {
+	font-size: 1.2rem;
+	margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+	background-color: #3e291c;
+	display: flex;
+	justify-content: center;
+	padding: 12px 0;
+}
+
+nav a {
+	color: #f8f4ec;
+	padding: 12px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(187, 188, 215);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+	padding: 60px 20px;
+	max-width: 1100px;
+	margin: auto;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	color: #3e291c;
+	font-size: 2.3rem;
+}
+
+.mission-box,
+.service-card,
+.project-card {
+	background-color: #fffdf8;
+	border-left: 6px solid #a67844;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+/* Services Grid */
+.services-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 20px;
+}
+
+/* Portfolio Grid */
+.portfolio-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+	gap: 25px;
+}
+
+.portfolio-grid img {
+	width: 100%;
+	border-radius: 8px;
+	height: 200px;
+	object-fit: cover;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact */
+.contact-box {
+	text-align: center;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 6px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+	background-color: #3e291c;
+	color: #f1eade;
+	text-align: center;
+	padding: 18px;
+	margin-top: 40px;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(43, 50, 191);
+  background-color: transparent;
+  text-decoration: underline;
+}
